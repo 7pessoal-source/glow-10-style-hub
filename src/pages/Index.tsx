@@ -8,21 +8,18 @@ import catSobrancelhas from "@/assets/cat-sobrancelhas.jpg";
 import catAcessorios from "@/assets/cat-acessorios.jpg";
 import catUnhas from "@/assets/cat-unhas.jpg";
 
-import prodImg0 from "@/assets/product-real-0.jpg";
-import prodImg1 from "@/assets/product-real-1.jpg";
-import prodImg2 from "@/assets/product-real-2.jpg";
-import prodImg3 from "@/assets/product-real-3.jpg";
-import prodImg4 from "@/assets/product-real-4.jpg";
-import prodImg5 from "@/assets/product-real-5.jpg";
-import prodImg6 from "@/assets/product-real-6.jpg";
-import prodImg7 from "@/assets/product-real-7.jpg";
-import prodImg8 from "@/assets/product-real-8.jpg";
-import prodImg9 from "@/assets/product-real-9.jpg";
-import prodImg10 from "@/assets/product-real-10.jpg";
-import prodImg11 from "@/assets/product-real-11.jpg";
-import prodImg12 from "@/assets/product-real-12.jpg";
-import prodImg13 from "@/assets/product-real-13.jpg";
-import prodImg14 from "@/assets/product-real-14.jpg";
+import prodImg0 from "@/assets/product-0.jpg";
+import prodImg1 from "@/assets/product-1.jpg";
+import prodImg2 from "@/assets/product-2.jpg";
+import prodImg3 from "@/assets/product-3.jpg";
+import prodImg4 from "@/assets/product-4.jpg";
+import prodImg5 from "@/assets/product-5.jpg";
+import prodImg6 from "@/assets/product-6.jpg";
+import prodImg7 from "@/assets/product-7.jpg";
+import prodImg8 from "@/assets/product-8.jpg";
+import prodImg9 from "@/assets/product-9.jpg";
+import prodImg10 from "@/assets/product-10.jpg";
+import prodImg11 from "@/assets/product-11.jpg";
 
 const categories = [
   { name: "Boca", image: catBoca },
@@ -37,19 +34,19 @@ const products = [
     name: "Lip Magic da Vovó",
     price: "R$ 10,00",
     desc: "Muda de cor nos lábios e dura muito 😍",
-    image: prodImg0
+    image: prodImg3
   },
   {
     name: "Pó Facial Pêssego",
     price: "R$ 10,00",
     desc: "Acabamento matte perfeito ✨ Pó fininho que não marca as linhas.",
-    image: prodImg1
+    image: prodImg4
   },
   {
     name: "Base Líquida Ultra Matte",
     price: "R$ 10,00",
     desc: "Alta cobertura e acabamento sequinho 💄",
-    image: prodImg2
+    image: prodImg5
   },
   {
     name: "Pó Compacto Matte",
@@ -103,25 +100,25 @@ const products = [
     name: "Prime Fácil Lua & Neve",
     price: "R$ 10,00",
     desc: "Prepara a pele e ajuda a fixar a make ✨",
-    image: prodImg12
+    image: prodImg6
   },
   {
     name: "Gloss Lua & Neve",
     price: "R$ 10,00",
     desc: "Brilho intenso e cores maravilhosas 💄",
-    image: prodImg13
+    image: prodImg7
   },
   {
     name: "Gloss Tom Vivo",
     price: "R$ 10,00",
     desc: "Cores vibrantes com brilho incrível 😍",
-    image: prodImg14
+    image: prodImg8
   },
   {
     name: "Gloss de Chaveiro",
     price: "R$ 10,00",
     desc: "Prático, lindo e perfeito pra levar na bolsa ou na chave ✨",
-    image: prodImg14
+    image: prodImg9
   },
 ];
 
