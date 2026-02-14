@@ -10,6 +10,7 @@ import catUnhas from "@/assets/cat-unhas.jpg";
 import glossChaveiro from "@/assets/gloss-chaveiro.jpg";
 import glossTomVivo from "@/assets/gloss-tom-vivo.jpg";
 import perfumeCalcinha from "@/assets/perfume-calcinha.webp";
+import saboneteIntimo from "@/assets/sabonete-intimo.webp";
 
 const categories = [
   { name: "Boca", image: catBoca },
@@ -37,6 +38,12 @@ const products = [
     price: "R$ 10,00",
     desc: "Delicado, feminino e irresistível ✨ Sensação de frescor e cheirinho suave.",
     image: perfumeCalcinha
+  },
+  {
+    name: "Sabonete Íntimo Beijinhos",
+    price: "R$ 10,00",
+    desc: "Cuidado diário com proteção e frescor 🌸 Fragrâncias: Morango, Uva e Melancia.",
+    image: saboneteIntimo
   },
 ];
 
