@@ -11,6 +11,7 @@ import glossChaveiro from "@/assets/gloss-chaveiro.jpg";
 import glossTomVivo from "@/assets/gloss-tom-vivo.jpg";
 import perfumeCalcinha from "@/assets/perfume-calcinha.webp";
 import saboneteIntimo from "@/assets/sabonete-intimo.webp";
+import primeLuaNeve from "@/assets/prime-lua-neve.jpg";
 
 const categories = [
   { name: "Boca", image: catBoca },
@@ -44,6 +45,12 @@ const products = [
     price: "R$ 10,00",
     desc: "Cuidado diário com proteção e frescor 🌸 Fragrâncias: Morango, Uva e Melancia.",
     image: saboneteIntimo
+  },
+  {
+    name: "Prime Fácil Lua & Neve",
+    price: "R$ 10,00",
+    desc: "Prepara a pele e ajuda a fixar a make 💄 Acabamento impecável.",
+    image: primeLuaNeve
   },
 ];
 
