@@ -15,6 +15,7 @@ import primeLuaNeve from "@/assets/prime-lua-neve.jpg";
 import glossChocolate from "@/assets/gloss-chocolate.webp";
 import kitSemaninha from "@/assets/kit-semaninha.webp";
 import hennaLabial from "@/assets/henna-labial.jpg";
+import aguaMicelar from "@/assets/agua-micelar.jpg";
 
 const categories = [
   { name: "Boca", image: catBoca },
@@ -72,6 +73,12 @@ const products = [
     price: "R$ 10,00",
     desc: "Cor natural que dura 💋 Efeito boca corada por horas ✨",
     image: hennaLabial
+  },
+  {
+    name: "Água Micelar Rosa Mosqueta",
+    price: "R$ 10,00",
+    desc: "Remove a maquiagem, limpa e hidrata 💕 Suave para a pele.",
+    image: aguaMicelar
   },
 ];
 
