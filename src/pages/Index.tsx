@@ -9,6 +9,7 @@ import catAcessorios from "@/assets/cat-acessorios.jpg";
 import catUnhas from "@/assets/cat-unhas.jpg";
 import glossChaveiro from "@/assets/gloss-chaveiro.jpg";
 import glossTomVivo from "@/assets/gloss-tom-vivo.jpg";
+import perfumeCalcinha from "@/assets/perfume-calcinha.webp";
 
 const categories = [
   { name: "Boca", image: catBoca },
@@ -30,6 +31,12 @@ const products = [
     price: "R$ 10,00",
     desc: "Cores vibrantes, com brilho incrível e efeito poderoso 💋",
     image: glossTomVivo
+  },
+  {
+    name: "Perfume de Calcinha",
+    price: "R$ 10,00",
+    desc: "Delicado, feminino e irresistível ✨ Sensação de frescor e cheirinho suave.",
+    image: perfumeCalcinha
   },
 ];
 
