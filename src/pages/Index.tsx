@@ -23,6 +23,7 @@ import poCompacto from "@/assets/po-compacto.jpg";
 import baseMatte from "@/assets/base-matte.jpg";
 import poPessego from "@/assets/po-pessego.jpg";
 import lipOilMorango from "@/assets/lip-oil-morango.jpg";
+import lipTintFaby from "@/assets/lip-tint-faby.jpg";
 
 const categories = [
   { name: "Boca", image: catBoca },
@@ -128,6 +129,12 @@ const products = [
     price: "R$ 10,00",
     desc: "Brilho + hidratação intensa para lábios irresistíveis 💋🍓✨",
     image: lipOilMorango
+  },
+  {
+    name: "Lip Tint Faby Make",
+    price: "R$ 10,00",
+    desc: "Cor natural que dura o dia todo 💋 Leve, confortável e efeito boca corada ✨",
+    image: lipTintFaby
   },
 ];
 
