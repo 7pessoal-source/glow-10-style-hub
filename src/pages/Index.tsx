@@ -19,6 +19,7 @@ import aguaMicelar from "@/assets/agua-micelar.jpg";
 import lipMagic from "@/assets/lip-magic.jpg";
 import glossMel from "@/assets/gloss-mel.jpg";
 import ciliosMink from "@/assets/cilios-mink.jpg";
+import poCompacto from "@/assets/po-compacto.jpg";
 
 const categories = [
   { name: "Boca", image: catBoca },
@@ -100,6 +101,12 @@ const products = [
     price: "R$ 10,00",
     desc: "Olhar poderoso sem esforço 😍 2 pares na caixinha.",
     image: ciliosMink
+  },
+  {
+    name: "Pó Compacto Matte TOM VIVO",
+    price: "R$ 10,00",
+    desc: "Deixa a pele sequinha, uniforme e com acabamento lindo 😍",
+    image: poCompacto
   },
 ];
 
