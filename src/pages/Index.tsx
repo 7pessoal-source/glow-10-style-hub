@@ -14,6 +14,7 @@ import saboneteIntimo from "@/assets/sabonete-intimo.webp";
 import primeLuaNeve from "@/assets/prime-lua-neve.jpg";
 import glossChocolate from "@/assets/gloss-chocolate.webp";
 import kitSemaninha from "@/assets/kit-semaninha.webp";
+import hennaLabial from "@/assets/henna-labial.jpg";
 
 const categories = [
   { name: "Boca", image: catBoca },
@@ -65,6 +66,12 @@ const products = [
     price: "R$ 10,00",
     desc: "Um par para cada dia da semana 💖 Estilo e delicadeza sempre com você.",
     image: kitSemaninha
+  },
+  {
+    name: "Henna Labial",
+    price: "R$ 10,00",
+    desc: "Cor natural que dura 💋 Efeito boca corada por horas ✨",
+    image: hennaLabial
   },
 ];
 
