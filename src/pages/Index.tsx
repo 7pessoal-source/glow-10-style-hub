@@ -7,6 +7,7 @@ import catRosto from "@/assets/cat-rosto.jpg";
 import catSobrancelhas from "@/assets/cat-sobrancelhas.jpg";
 import catAcessorios from "@/assets/cat-acessorios.jpg";
 import catUnhas from "@/assets/cat-unhas.jpg";
+import glossChaveiro from "@/assets/gloss-chaveiro.jpg";
 
 const categories = [
   { name: "Boca", image: catBoca },
@@ -16,7 +17,14 @@ const categories = [
   { name: "Unhas", image: catUnhas },
 ];
 
-const products: any[] = [];
+const products = [
+  {
+    name: "Gloss de Chaveiro",
+    price: "R$ 10,00",
+    desc: "Prático, lindo e perfeito pra levar na bolsa ou na chave ✨",
+    image: glossChaveiro
+  },
+];
 
 const whatsappLink = (productName: string) =>
   `https://wa.me/559681125017?text=${encodeURIComponent(`Olá! Tenho interesse no produto ${productName} da Glow 10. Pode me passar mais informações?`)}`;
