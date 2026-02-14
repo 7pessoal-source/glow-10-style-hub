@@ -17,6 +17,7 @@ import kitSemaninha from "@/assets/kit-semaninha.webp";
 import hennaLabial from "@/assets/henna-labial.jpg";
 import aguaMicelar from "@/assets/agua-micelar.jpg";
 import lipMagic from "@/assets/lip-magic.jpg";
+import glossMel from "@/assets/gloss-mel.jpg";
 
 const categories = [
   { name: "Boca", image: catBoca },
@@ -86,6 +87,12 @@ const products = [
     price: "R$ 10,00",
     desc: "Começa verdinho e muda de cor nos lábios 😍 Longa duração.",
     image: lipMagic
+  },
+  {
+    name: "Gloss de Mel Tom Vivo",
+    price: "R$ 10,00",
+    desc: "Hidrata, dá brilho e deixa os lábios lindos 💋",
+    image: glossMel
   },
 ];
 
