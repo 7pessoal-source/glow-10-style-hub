@@ -8,19 +8,6 @@ import catSobrancelhas from "@/assets/cat-sobrancelhas.jpg";
 import catAcessorios from "@/assets/cat-acessorios.jpg";
 import catUnhas from "@/assets/cat-unhas.jpg";
 
-import prodImg0 from "@/assets/product-0.jpg";
-import prodImg1 from "@/assets/product-1.jpg";
-import prodImg2 from "@/assets/product-2.jpg";
-import prodImg3 from "@/assets/product-3.jpg";
-import prodImg4 from "@/assets/product-4.jpg";
-import prodImg5 from "@/assets/product-5.jpg";
-import prodImg6 from "@/assets/product-6.jpg";
-import prodImg7 from "@/assets/product-7.jpg";
-import prodImg8 from "@/assets/product-8.jpg";
-import prodImg9 from "@/assets/product-9.jpg";
-import prodImg10 from "@/assets/product-10.jpg";
-import prodImg11 from "@/assets/product-11.jpg";
-
 const categories = [
   { name: "Boca", image: catBoca },
   { name: "Rosto", image: catRosto },
@@ -29,98 +16,7 @@ const categories = [
   { name: "Unhas", image: catUnhas },
 ];
 
-const products = [
-  {
-    name: "Lip Magic da Vovó",
-    price: "R$ 10,00",
-    desc: "Muda de cor nos lábios e dura muito 😍",
-    image: prodImg3
-  },
-  {
-    name: "Pó Facial Pêssego",
-    price: "R$ 10,00",
-    desc: "Acabamento matte perfeito ✨ Pó fininho que não marca as linhas.",
-    image: prodImg4
-  },
-  {
-    name: "Base Líquida Ultra Matte",
-    price: "R$ 10,00",
-    desc: "Alta cobertura e acabamento sequinho 💄",
-    image: prodImg5
-  },
-  {
-    name: "Pó Compacto Matte",
-    price: "R$ 10,00",
-    desc: "Pele aveludada e sem brilho o dia todo ✨",
-    image: prodImg3
-  },
-  {
-    name: "Cílios Postiços Mink",
-    price: "R$ 10,00",
-    desc: "Olhar marcante e natural 👁️✨",
-    image: prodImg4
-  },
-  {
-    name: "Gloss de Mel Tom Vivo",
-    price: "R$ 10,00",
-    desc: "Hidratação intensa com cheirinho de mel 🍯",
-    image: prodImg5
-  },
-  {
-    name: "Água Micelar Rosa Mosqueta",
-    price: "R$ 10,00",
-    desc: "Limpa, hidrata e remove a make suavemente 💧",
-    image: prodImg7
-  },
-  {
-    name: "Henna Labial",
-    price: "R$ 10,00",
-    desc: "Efeito boca corada por horas 💋",
-    image: prodImg8
-  },
-  {
-    name: "Kit Semaninha de Brincos",
-    price: "R$ 10,00",
-    desc: "Um par de brincos para cada dia da semana 👂",
-    image: prodImg9
-  },
-  {
-    name: "Gloss de Mel",
-    price: "R$ 10,00",
-    desc: "Hidratação e brilho com toque de mel 🍯",
-    image: prodImg10
-  },
-  {
-    name: "Gloss Chocolate Love Rain",
-    price: "R$ 10,00",
-    desc: "Cheirinho de chocolate e brilho incrível 🍫",
-    image: prodImg11
-  },
-  {
-    name: "Prime Fácil Lua & Neve",
-    price: "R$ 10,00",
-    desc: "Prepara a pele e ajuda a fixar a make ✨",
-    image: prodImg6
-  },
-  {
-    name: "Gloss Lua & Neve",
-    price: "R$ 10,00",
-    desc: "Brilho intenso e cores maravilhosas 💄",
-    image: prodImg7
-  },
-  {
-    name: "Gloss Tom Vivo",
-    price: "R$ 10,00",
-    desc: "Cores vibrantes com brilho incrível 😍",
-    image: prodImg8
-  },
-  {
-    name: "Gloss de Chaveiro",
-    price: "R$ 10,00",
-    desc: "Prático, lindo e perfeito pra levar na bolsa ou na chave ✨",
-    image: prodImg9
-  },
-];
+const products: any[] = [];
 
 const whatsappLink = (productName: string) =>
   `https://wa.me/559681125017?text=${encodeURIComponent(`Olá! Tenho interesse no produto ${productName} da Glow 10. Pode me passar mais informações?`)}`;
@@ -281,94 +177,93 @@ const Index = () => {
             Produtos em <span className="text-gradient-pink">Destaque</span>
           </motion.h3>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {products.map((product, i) => (
-              <motion.div
-                key={product.name}
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true, margin: "-50px" }}
-                variants={fadeUp}
-                custom={i}
-                className="glow-card bg-card rounded-2xl overflow-hidden group"
-              >
-                <div className="aspect-square overflow-hidden">
-                  <img
-                    src={product.image}
-                    alt={product.name}
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                    loading="lazy"
-                  />
-                </div>
-                <div className="p-6">
-                  <h4 className="font-heading text-xl font-semibold mb-1">{product.name}</h4>
-                  <p className="text-muted-foreground text-sm mb-3">{product.desc}</p>
-                  <div className="flex items-center justify-between">
-                    <span className="text-primary font-bold text-xl">{product.price}</span>
-                    <a
-                      href={whatsappLink(product.name)}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="glow-button gradient-pink text-primary-foreground px-5 py-2 rounded-full text-sm font-semibold"
-                    >
-                      Comprar
-                    </a>
+          {products.length > 0 ? (
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+              {products.map((product, i) => (
+                <motion.div
+                  key={product.name}
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, margin: "-50px" }}
+                  variants={fadeUp}
+                  custom={i}
+                  className="glow-card bg-card rounded-2xl overflow-hidden group"
+                >
+                  <div className="aspect-square overflow-hidden">
+                    <img
+                      src={product.image}
+                      alt={product.name}
+                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                      loading="lazy"
+                    />
                   </div>
-                </div>
-              </motion.div>
-            ))}
-          </div>
+                  <div className="p-6">
+                    <h4 className="font-heading text-xl font-semibold mb-1">{product.name}</h4>
+                    <p className="text-muted-foreground text-sm mb-3">{product.desc}</p>
+                    <div className="flex items-center justify-between mt-auto">
+                      <span className="text-primary font-bold text-xl">{product.price}</span>
+                      <a
+                        href={whatsappLink(product.name)}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="bg-primary/10 hover:bg-primary text-primary hover:text-primary-foreground p-3 rounded-full transition-all duration-300"
+                      >
+                        <MessageCircle size={20} />
+                      </a>
+                    </div>
+                  </div>
+                </motion.div>
+              ))}
+            </div>
+          ) : (
+            <div className="text-center py-20">
+              <p className="text-muted-foreground text-lg">Novos produtos em breve!</p>
+            </div>
+          )}
         </div>
       </section>
 
       {/* Sobre */}
       <section id="sobre" className="py-24 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-background via-accent/30 to-background pointer-events-none" />
-        <div className="container mx-auto px-4 relative z-10">
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: "-100px" }}
-            variants={fadeUp}
-            custom={0}
-            className="max-w-3xl mx-auto text-center"
-          >
-            <h3 className="font-heading text-3xl md:text-4xl font-bold mb-8">
-              Sobre a <span className="text-gradient-pink">Glow 10</span>
-            </h3>
-            <p className="text-muted-foreground text-lg md:text-xl leading-relaxed">
-              A Glow 10 nasceu para valorizar a beleza única de cada mulher. Nossos produtos
-              combinam qualidade, tendência e autoestima. Acreditamos que cada mulher merece
-              brilhar com confiança e autenticidade.
-            </p>
-          </motion.div>
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              variants={fadeUp}
+              custom={0}
+            >
+              <h3 className="font-heading text-3xl md:text-4xl font-bold mb-8">
+                Sobre a <span className="text-gradient-pink">Glow 10</span>
+              </h3>
+              <p className="text-muted-foreground text-lg mb-12 leading-relaxed">
+                Nascemos com a missão de trazer beleza e autoestima acessível. 
+                A Glow 10 oferece uma curadoria especial de maquiagens e acessórios 
+                para você brilhar em qualquer ocasião.
+              </p>
+              
+              <div className="flex justify-center gap-6">
+                <a href="#" className="p-3 rounded-full bg-card hover:bg-primary/10 transition-colors duration-300">
+                  <Instagram size={24} />
+                </a>
+                <a href="#" className="p-3 rounded-full bg-card hover:bg-primary/10 transition-colors duration-300">
+                  <Facebook size={24} />
+                </a>
+              </div>
+            </motion.div>
+          </div>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="border-t border-border py-12">
+      <footer className="py-12 border-t border-border/50">
         <div className="container mx-auto px-4 text-center">
-          <h4 className="font-heading text-2xl font-bold mb-6">
+          <h2 className="font-heading text-2xl font-bold mb-4">
             <span className="text-gradient-pink">Glow</span> 10
-          </h4>
-          <div className="flex justify-center gap-6 mb-6">
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors duration-300">
-              <Instagram size={24} />
-            </a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors duration-300">
-              <Facebook size={24} />
-            </a>
-            <a
-              href="https://wa.me/559681125017"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-primary transition-colors duration-300"
-            >
-              <MessageCircle size={24} />
-            </a>
-          </div>
-          <p className="text-muted-foreground text-sm">
-            © 2026 Glow 10 – Todos os direitos reservados
+          </h2>
+          <p className="text-muted-foreground text-sm mb-8">
+            © {new Date().getFullYear()} Glow 10 Style Hub. Todos os direitos reservados.
           </p>
         </div>
       </footer>
