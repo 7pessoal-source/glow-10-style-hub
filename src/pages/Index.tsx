@@ -13,6 +13,7 @@ import perfumeCalcinha from "@/assets/perfume-calcinha.webp";
 import saboneteIntimo from "@/assets/sabonete-intimo.webp";
 import primeLuaNeve from "@/assets/prime-lua-neve.jpg";
 import glossChocolate from "@/assets/gloss-chocolate.webp";
+import kitSemaninha from "@/assets/kit-semaninha.webp";
 
 const categories = [
   { name: "Boca", image: catBoca },
@@ -58,6 +59,12 @@ const products = [
     price: "R$ 10,00",
     desc: "Cheirinho delicioso de chocolate e brilho incrível ✨ Lábios hidratados.",
     image: glossChocolate
+  },
+  {
+    name: "Kit Semaninha de Brincos",
+    price: "R$ 10,00",
+    desc: "Um par para cada dia da semana 💖 Estilo e delicadeza sempre com você.",
+    image: kitSemaninha
   },
 ];
 
