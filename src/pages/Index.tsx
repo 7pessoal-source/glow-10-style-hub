@@ -7,6 +7,18 @@ import catRosto from "@/assets/cat-rosto.jpg";
 import catSobrancelhas from "@/assets/cat-sobrancelhas.jpg";
 import catAcessorios from "@/assets/cat-acessorios.jpg";
 import catUnhas from "@/assets/cat-unhas.jpg";
+import prodImg0 from "@/assets/product-0.jpg";
+import prodImg1 from "@/assets/product-1.jpg";
+import prodImg2 from "@/assets/product-2.jpg";
+import prodImg3 from "@/assets/product-3.jpg";
+import prodImg4 from "@/assets/product-4.jpg";
+import prodImg5 from "@/assets/product-5.jpg";
+import prodImg6 from "@/assets/product-6.jpg";
+import prodImg7 from "@/assets/product-7.jpg";
+import prodImg8 from "@/assets/product-8.jpg";
+import prodImg9 from "@/assets/product-9.jpg";
+import prodImg10 from "@/assets/product-10.jpg";
+import prodImg11 from "@/assets/product-11.jpg";
 
 
 const categories = [
@@ -21,128 +33,74 @@ const products = [
   {
     name: "Gloss de Chaveiro",
     price: "R$ 10,00",
-    desc: "Gloss de chaveiro super fofo! Prático, lindo e perfeito pra levar na bolsa ou na chave. Retocou, brilhou, arrasou.",
-    image: "https://images.unsplash.com/photo-1596462502278-27bfdc4033c8?w=800&q=80",
+    desc: "Prático, lindo e perfeito pra levar na bolsa ou na chave ✨",
+    image: prodImg0
   },
   {
     name: "Gloss Tom Vivo",
     price: "R$ 10,00",
-    desc: "Olha esse gloss maravilhoso da Tom Vivo 😍 Cores vibrantes, com brilho incrível e aquele efeito que deixa a boca poderosa!",
-    image: "https://images.unsplash.com/photo-1596462502278-27bfdc4033c8?w=800&q=80",
+    desc: "Cores vibrantes com brilho incrível 😍",
+    image: prodImg1
   },
   {
     name: "Perfume de Calcinha",
     price: "R$ 10,00",
-    desc: "Delicado, feminino e irresistível ✨ 🌸 Sensação de frescor ao longo do dia 🌸 Cheirinho suave e agradável.",
-    image: "https://images.unsplash.com/photo-1596462502278-27bfdc4033c8?w=800&q=80",
+    desc: "Sensação de frescor e cheirinho irresistível 🌸",
+    image: prodImg2
   },
   {
     name: "Sabonete Íntimo Beijinhos",
     price: "R$ 10,00",
-    desc: "Cuidado diário com proteção e frescor 🌸 ✨ Cheirinho delicioso ✨ Uso diário ✨ Sensação de limpeza e conforto.",
-    image: "https://images.unsplash.com/photo-1596462502278-27bfdc4033c8?w=800&q=80",
+    desc: "Cuidado diário com proteção e frescor ✨",
+    image: prodImg3
   },
   {
     name: "Gloss Lua & Neve",
     price: "R$ 10,00",
-    desc: "Brilho que não pode faltar 💄😍 Inspiração da embalagem da Fran. Cores lindas e brilho intenso.",
-    image: "https://images.unsplash.com/photo-1596462502278-27bfdc4033c8?w=800&q=80",
+    desc: "Brilho intenso e cores maravilhosas 💄",
+    image: prodImg4
   },
   {
     name: "Prime Fácil Lua & Neve",
     price: "R$ 10,00",
-    desc: "Prepara a pele e ajuda a fixar a make 💄 ✨ Textura leve e rápida absorção.",
-    image: "https://images.unsplash.com/photo-1596462502278-27bfdc4033c8?w=800&q=80",
+    desc: "Prepara a pele e ajuda a fixar a make ✨",
+    image: prodImg5
   },
   {
     name: "Gloss Chocolate Love Rain",
     price: "R$ 10,00",
-    desc: "Cheirinho delicioso e brilho incrível ✨ 💋 Lábios hidratados e com efeito molhado.",
-    image: "https://images.unsplash.com/photo-1596462502278-27bfdc4033c8?w=800&q=80",
+    desc: "Cheirinho de chocolate e brilho incrível 🍫",
+    image: prodImg6
   },
   {
     name: "Gloss de Mel",
     price: "R$ 10,00",
-    desc: "Brilho + hidratação + preço baixo 😍 🍯 Cheirinho suave e textura confortável.",
-    image: "https://images.unsplash.com/photo-1596462502278-27bfdc4033c8?w=800&q=80",
+    desc: "Hidratação e brilho com toque de mel 🍯",
+    image: prodImg7
   },
   {
     name: "Kit Semaninha de Brincos",
     price: "R$ 10,00",
-    desc: "Um par pra cada dia 💖 Kit completo com 7 pares de brincos variados e delicados.",
-    image: "https://images.unsplash.com/photo-1596462502278-27bfdc4033c8?w=800&q=80",
+    desc: "Um par de brincos para cada dia da semana 👂",
+    image: prodImg8
   },
   {
     name: "Henna Labial",
     price: "R$ 10,00",
-    desc: "Cor natural que dura 💋 Efeito boca corada por horas ✨ Alta fixação e pigmentação.",
-    image: "https://images.unsplash.com/photo-1596462502278-27bfdc4033c8?w=800&q=80",
+    desc: "Efeito boca corada por horas 💋",
+    image: prodImg9
   },
   {
     name: "Água Micelar Rosa Mosqueta",
     price: "R$ 10,00",
-    desc: "Remove a maquiagem, limpa e hidrata 💕 💧 Suave para a pele e com todos os benefícios da rosa mosqueta.",
-    image: "https://images.unsplash.com/photo-1596462502278-27bfdc4033c8?w=800&q=80",
+    desc: "Limpa, hidrata e remove a make suavemente 💧",
+    image: prodImg10
   },
   {
     name: "Lip Magic da Vovó",
     price: "R$ 10,00",
-    desc: "Começa verdinho e muda de cor nos lábios 😍 💋 Longa duração e efeito natural personalizado.",
-    image: "https://images.unsplash.com/photo-1596462502278-27bfdc4033c8?w=800&q=80",
-  },
-  {
-    name: "Gloss de Mel Tom Vivo",
-    price: "R$ 10,00",
-    desc: "Hidrata, dá brilho e deixa os lábios lindos 💋 Textura não pegajosa e cheirinho agradável.",
-    image: "https://images.unsplash.com/photo-1596462502278-27bfdc4033c8?w=800&q=80",
-  },
-  {
-    name: "Cílios Postiços Mink",
-    price: "R$ 10,00",
-    desc: "Olhar poderoso sem esforço 😍 📦 2 pares na caixinha. Macios, naturais e reutilizáveis.",
-    image: "https://images.unsplash.com/photo-1596462502278-27bfdc4033c8?w=800&q=80",
-  },
-  {
-    name: "Pó Compacto Matte TOM VIVO",
-    price: "R$ 10,00",
-    desc: "Deixa a pele sequinha, uniforme e com acabamento lindo 😍 Ideal para selar a maquiagem e controlar o brilho.",
-    image: "https://images.unsplash.com/photo-1596462502278-27bfdc4033c8?w=800&q=80",
-  },
-  {
-    name: "Base Líquida Ultra Matte",
-    price: "R$ 10,00",
-    desc: "Acabamento profissional 💥 Cobertura uniforme e efeito matte de longa duração.",
-    image: "https://images.unsplash.com/photo-1596462502278-27bfdc4033c8?w=800&q=80",
-  },
-  {
-    name: "Pó Facial Pêssego",
-    price: "R$ 10,00",
-    desc: "Acabamento matte perfeito ✨ Pó fininho que não marca as linhas de expressão.",
-    image: "https://images.unsplash.com/photo-1596462502278-27bfdc4033c8?w=800&q=80",
-  },
-  {
-    name: "Mor Kiss Lip Oil",
-    price: "R$ 10,00",
-    desc: "Brilho + hidratação 💋✨ Com cheirinho delicioso de morango e textura leve.",
-    image: "https://images.unsplash.com/photo-1596462502278-27bfdc4033c8?w=800&q=80",
-  },
-  {
-    name: "Lip Tint Faby Make",
-    price: "R$ 10,00",
-    desc: "Cor natural que dura o dia todo 💋 Leve, confortável e com aquele efeito boca corada ✨ Perfeito pra usar sozinho ou com gloss ❤️",
-    image: "https://images.unsplash.com/photo-1596462502278-27bfdc4033c8?w=800&q=80",
-  },
-  {
-    name: "Lilac Blur Dapop",
-    price: "R$ 10,00",
-    desc: "Finaliza, matifica e deixa a pele linda ✨ Essencial na make 💜 Pó solto de alta qualidade.",
-    image: "https://images.unsplash.com/photo-1596462502278-27bfdc4033c8?w=800&q=80",
-  },
-  {
-    name: "Pó Banana",
-    price: "R$ 10,00",
-    desc: "Pele selada, bonita e sem gastar horrores 😍 Ideal para todos os tons de pele, matifica sem pesar.",
-    image: "https://images.unsplash.com/photo-1596462502278-27bfdc4033c8?w=800&q=80",
+    desc: "Muda de cor nos lábios e dura muito 😍",
+    image: prodImg11
   },
 ];
 
