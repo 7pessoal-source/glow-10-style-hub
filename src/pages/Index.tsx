@@ -22,6 +22,7 @@ import ciliosMink from "@/assets/cilios-mink.jpg";
 import poCompacto from "@/assets/po-compacto.jpg";
 import baseMatte from "@/assets/base-matte.jpg";
 import poPessego from "@/assets/po-pessego.jpg";
+import lipOilMorango from "@/assets/lip-oil-morango.jpg";
 
 const categories = [
   { name: "Boca", image: catBoca },
@@ -121,6 +122,12 @@ const products = [
     price: "R$ 10,00",
     desc: "Acabamento matte perfeito para uma pele aveludada ✨",
     image: poPessego
+  },
+  {
+    name: "Mor Kiss Lip Oil",
+    price: "R$ 10,00",
+    desc: "Brilho + hidratação intensa para lábios irresistíveis 💋🍓✨",
+    image: lipOilMorango
   },
 ];
 
