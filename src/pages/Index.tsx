@@ -12,6 +12,7 @@ import glossTomVivo from "@/assets/gloss-tom-vivo.jpg";
 import perfumeCalcinha from "@/assets/perfume-calcinha.webp";
 import saboneteIntimo from "@/assets/sabonete-intimo.webp";
 import primeLuaNeve from "@/assets/prime-lua-neve.jpg";
+import glossChocolate from "@/assets/gloss-chocolate.webp";
 
 const categories = [
   { name: "Boca", image: catBoca },
@@ -51,6 +52,12 @@ const products = [
     price: "R$ 10,00",
     desc: "Prepara a pele e ajuda a fixar a make 💄 Acabamento impecável.",
     image: primeLuaNeve
+  },
+  {
+    name: "Gloss Chocolate Love Rain",
+    price: "R$ 10,00",
+    desc: "Cheirinho delicioso de chocolate e brilho incrível ✨ Lábios hidratados.",
+    image: glossChocolate
   },
 ];
 
