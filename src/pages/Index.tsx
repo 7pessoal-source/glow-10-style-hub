@@ -25,6 +25,7 @@ import poPessego from "@/assets/po-pessego.jpg";
 import lipOilMorango from "@/assets/lip-oil-morango.jpg";
 import lipTintFaby from "@/assets/lip-tint-faby.jpg";
 import lilacBlur from "@/assets/lilac-blur.webp";
+import poBanana from "@/assets/po-banana.webp";
 
 const categories = [
   { name: "Boca", image: catBoca },
@@ -142,6 +143,12 @@ const products = [
     price: "R$ 10,00",
     desc: "Finaliza, matifica e deixa a pele linda ✨ Essencial na make 💜",
     image: lilacBlur
+  },
+  {
+    name: "Pó Banana",
+    price: "R$ 10,00",
+    desc: "Pele selada, bonita e com acabamento matte impecável 😍🍌✨",
+    image: poBanana
   },
 ];
 
