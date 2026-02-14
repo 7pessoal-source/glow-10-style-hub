@@ -7,18 +7,6 @@ import catRosto from "@/assets/cat-rosto.jpg";
 import catSobrancelhas from "@/assets/cat-sobrancelhas.jpg";
 import catAcessorios from "@/assets/cat-acessorios.jpg";
 import catUnhas from "@/assets/cat-unhas.jpg";
-import prodImg0 from "@/assets/product-0.jpg";
-import prodImg1 from "@/assets/product-1.jpg";
-import prodImg2 from "@/assets/product-2.jpg";
-import prodImg3 from "@/assets/product-3.jpg";
-import prodImg4 from "@/assets/product-4.jpg";
-import prodImg5 from "@/assets/product-5.jpg";
-import prodImg6 from "@/assets/product-6.jpg";
-import prodImg7 from "@/assets/product-7.jpg";
-import prodImg8 from "@/assets/product-8.jpg";
-import prodImg9 from "@/assets/product-9.jpg";
-import prodImg10 from "@/assets/product-10.jpg";
-import prodImg11 from "@/assets/product-11.jpg";
 
 
 const categories = [
@@ -30,78 +18,6 @@ const categories = [
 ];
 
 const products = [
-  {
-    name: "Gloss de Chaveiro",
-    price: "R$ 10,00",
-    desc: "Prático, lindo e perfeito pra levar na bolsa ou na chave ✨",
-    image: prodImg0
-  },
-  {
-    name: "Gloss Tom Vivo",
-    price: "R$ 10,00",
-    desc: "Cores vibrantes com brilho incrível 😍",
-    image: prodImg1
-  },
-  {
-    name: "Perfume de Calcinha",
-    price: "R$ 10,00",
-    desc: "Sensação de frescor e cheirinho irresistível 🌸",
-    image: prodImg2
-  },
-  {
-    name: "Sabonete Íntimo Beijinhos",
-    price: "R$ 10,00",
-    desc: "Cuidado diário com proteção e frescor ✨",
-    image: prodImg3
-  },
-  {
-    name: "Gloss Lua & Neve",
-    price: "R$ 10,00",
-    desc: "Brilho intenso e cores maravilhosas 💄",
-    image: prodImg4
-  },
-  {
-    name: "Prime Fácil Lua & Neve",
-    price: "R$ 10,00",
-    desc: "Prepara a pele e ajuda a fixar a make ✨",
-    image: prodImg5
-  },
-  {
-    name: "Gloss Chocolate Love Rain",
-    price: "R$ 10,00",
-    desc: "Cheirinho de chocolate e brilho incrível 🍫",
-    image: prodImg6
-  },
-  {
-    name: "Gloss de Mel",
-    price: "R$ 10,00",
-    desc: "Hidratação e brilho com toque de mel 🍯",
-    image: prodImg7
-  },
-  {
-    name: "Kit Semaninha de Brincos",
-    price: "R$ 10,00",
-    desc: "Um par de brincos para cada dia da semana 👂",
-    image: prodImg8
-  },
-  {
-    name: "Henna Labial",
-    price: "R$ 10,00",
-    desc: "Efeito boca corada por horas 💋",
-    image: prodImg9
-  },
-  {
-    name: "Água Micelar Rosa Mosqueta",
-    price: "R$ 10,00",
-    desc: "Limpa, hidrata e remove a make suavemente 💧",
-    image: prodImg10
-  },
-  {
-    name: "Lip Magic da Vovó",
-    price: "R$ 10,00",
-    desc: "Muda de cor nos lábios e dura muito 😍",
-    image: prodImg11
-  },
 ];
 
 const whatsappLink = (productName: string) =>
