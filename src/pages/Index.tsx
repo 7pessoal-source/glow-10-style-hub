@@ -21,6 +21,7 @@ import glossMel from "@/assets/gloss-mel.jpg";
 import ciliosMink from "@/assets/cilios-mink.jpg";
 import poCompacto from "@/assets/po-compacto.jpg";
 import baseMatte from "@/assets/base-matte.jpg";
+import poPessego from "@/assets/po-pessego.jpg";
 
 const categories = [
   { name: "Boca", image: catBoca },
@@ -114,6 +115,12 @@ const products = [
     price: "R$ 10,00",
     desc: "Acabamento profissional para uma pele impecável 💄 Ultra Matte.",
     image: baseMatte
+  },
+  {
+    name: "Pó Facial Pêssego",
+    price: "R$ 10,00",
+    desc: "Acabamento matte perfeito para uma pele aveludada ✨",
+    image: poPessego
   },
 ];
 
