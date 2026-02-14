@@ -8,6 +8,21 @@ import catSobrancelhas from "@/assets/cat-sobrancelhas.jpg";
 import catAcessorios from "@/assets/cat-acessorios.jpg";
 import catUnhas from "@/assets/cat-unhas.jpg";
 
+import prodImg0 from "@/assets/product-real-0.jpg";
+import prodImg1 from "@/assets/product-real-1.jpg";
+import prodImg2 from "@/assets/product-real-2.jpg";
+import prodImg3 from "@/assets/product-real-3.jpg";
+import prodImg4 from "@/assets/product-real-4.jpg";
+import prodImg5 from "@/assets/product-real-5.jpg";
+import prodImg6 from "@/assets/product-real-6.jpg";
+import prodImg7 from "@/assets/product-real-7.jpg";
+import prodImg8 from "@/assets/product-real-8.jpg";
+import prodImg9 from "@/assets/product-real-9.jpg";
+import prodImg10 from "@/assets/product-real-10.jpg";
+import prodImg11 from "@/assets/product-real-11.jpg";
+import prodImg12 from "@/assets/product-real-12.jpg";
+import prodImg13 from "@/assets/product-real-13.jpg";
+import prodImg14 from "@/assets/product-real-14.jpg";
 
 const categories = [
   { name: "Boca", image: catBoca },
@@ -18,6 +33,96 @@ const categories = [
 ];
 
 const products = [
+  {
+    name: "Lip Magic da Vovó",
+    price: "R$ 10,00",
+    desc: "Muda de cor nos lábios e dura muito 😍",
+    image: prodImg0
+  },
+  {
+    name: "Pó Facial Pêssego",
+    price: "R$ 10,00",
+    desc: "Acabamento matte perfeito ✨ Pó fininho que não marca as linhas.",
+    image: prodImg1
+  },
+  {
+    name: "Base Líquida Ultra Matte",
+    price: "R$ 10,00",
+    desc: "Alta cobertura e acabamento sequinho 💄",
+    image: prodImg2
+  },
+  {
+    name: "Pó Compacto Matte",
+    price: "R$ 10,00",
+    desc: "Pele aveludada e sem brilho o dia todo ✨",
+    image: prodImg3
+  },
+  {
+    name: "Cílios Postiços Mink",
+    price: "R$ 10,00",
+    desc: "Olhar marcante e natural 👁️✨",
+    image: prodImg4
+  },
+  {
+    name: "Gloss de Mel Tom Vivo",
+    price: "R$ 10,00",
+    desc: "Hidratação intensa com cheirinho de mel 🍯",
+    image: prodImg5
+  },
+  {
+    name: "Água Micelar Rosa Mosqueta",
+    price: "R$ 10,00",
+    desc: "Limpa, hidrata e remove a make suavemente 💧",
+    image: prodImg7
+  },
+  {
+    name: "Henna Labial",
+    price: "R$ 10,00",
+    desc: "Efeito boca corada por horas 💋",
+    image: prodImg8
+  },
+  {
+    name: "Kit Semaninha de Brincos",
+    price: "R$ 10,00",
+    desc: "Um par de brincos para cada dia da semana 👂",
+    image: prodImg9
+  },
+  {
+    name: "Gloss de Mel",
+    price: "R$ 10,00",
+    desc: "Hidratação e brilho com toque de mel 🍯",
+    image: prodImg10
+  },
+  {
+    name: "Gloss Chocolate Love Rain",
+    price: "R$ 10,00",
+    desc: "Cheirinho de chocolate e brilho incrível 🍫",
+    image: prodImg11
+  },
+  {
+    name: "Prime Fácil Lua & Neve",
+    price: "R$ 10,00",
+    desc: "Prepara a pele e ajuda a fixar a make ✨",
+    image: prodImg12
+  },
+  {
+    name: "Gloss Lua & Neve",
+    price: "R$ 10,00",
+    desc: "Brilho intenso e cores maravilhosas 💄",
+    image: prodImg13
+  },
+  {
+    name: "Gloss Tom Vivo",
+    price: "R$ 10,00",
+    desc: "Cores vibrantes com brilho incrível 😍",
+    image: prodImg14
+  },
+  {
+    name: "Gloss de Chaveiro",
+    price: "R$ 10,00",
+    desc: "Prático, lindo e perfeito pra levar na bolsa ou na chave ✨",
+    image: prodImg14
+  },
 ];
 
 const whatsappLink = (productName: string) =>
