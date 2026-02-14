@@ -8,6 +8,7 @@ import catSobrancelhas from "@/assets/cat-sobrancelhas.jpg";
 import catAcessorios from "@/assets/cat-acessorios.jpg";
 import catUnhas from "@/assets/cat-unhas.jpg";
 import glossChaveiro from "@/assets/gloss-chaveiro.jpg";
+import glossTomVivo from "@/assets/gloss-tom-vivo.jpg";
 
 const categories = [
   { name: "Boca", image: catBoca },
@@ -23,6 +24,12 @@ const products = [
     price: "R$ 10,00",
     desc: "Prático, lindo e perfeito pra levar na bolsa ou na chave ✨",
     image: glossChaveiro
+  },
+  {
+    name: "Gloss Tom Vivo",
+    price: "R$ 10,00",
+    desc: "Cores vibrantes, com brilho incrível e efeito poderoso 💋",
+    image: glossTomVivo
   },
 ];
 
