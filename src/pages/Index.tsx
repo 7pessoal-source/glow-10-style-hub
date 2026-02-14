@@ -7,11 +7,11 @@ import catRosto from "@/assets/cat-rosto.jpg";
 import catSobrancelhas from "@/assets/cat-sobrancelhas.jpg";
 import catAcessorios from "@/assets/cat-acessorios.jpg";
 import catUnhas from "@/assets/cat-unhas.jpg";
-import prodNew1 from "@/assets/prod-new-1.jpg";
-import prodNew2 from "@/assets/prod-new-2.jpg";
-import prodNew3 from "@/assets/prod-new-3.jpg";
-import prodNew4 from "@/assets/prod-new-4.jpg";
-import prodNew5 from "@/assets/prod-new-5.jpg";
+import prodFull1 from "@/assets/prod-full-1.jpg";
+import prodFull2 from "@/assets/prod-full-2.jpg";
+import prodFull3 from "@/assets/prod-full-3.jpg";
+import prodFull4 from "@/assets/prod-full-4.jpg";
+import prodFull5 from "@/assets/prod-full-5.jpg";
 
 const categories = [
   { name: "Boca", image: catBoca },
@@ -22,11 +22,16 @@ const categories = [
 ];
 
 const products = [
-  { name: "Pó Banana", desc: "Acabamento impecável e controle de brilho", price: "R$ 10,00", image: prodNew1 },
-  { name: "Mousse Facial", desc: "Limpeza profunda e hidratação suave", price: "R$ 10,00", image: prodNew2 },
-  { name: "Pó Compacto", desc: "Cobertura uniforme e toque aveludado", price: "R$ 10,00", image: prodNew3 },
-  { name: "Base", desc: "Alta cobertura e acabamento natural", price: "R$ 10,00", image: prodNew4 },
-  { name: "Água Micelar", desc: "Remove impurezas e tonifica a pele", price: "R$ 10,00", image: prodNew5 },
+  { name: "Pó Banana", desc: "Acabamento impecável e controle de brilho", price: "R$ 10,00", image: prodFull1 },
+  { name: "Mousse Facial", desc: "Limpeza profunda e hidratação suave", price: "R$ 10,00", image: prodFull2 },
+  { name: "Pó Compacto", desc: "Cobertura uniforme e toque aveludado", price: "R$ 10,00", image: prodFull3 },
+  { name: "Base Líquida", desc: "Alta cobertura e acabamento natural", price: "R$ 10,00", image: prodFull4 },
+  { name: "Água Micelar", desc: "Remove impurezas e tonifica a pele", price: "R$ 10,00", image: prodFull5 },
+  { name: "Batom Matte", desc: "Cores intensas e longa duração", price: "R$ 10,00", image: "https://images.unsplash.com/photo-1586776977607-310e9c725c37?q=80&w=800&auto=format&fit=crop" },
+  { name: "Lápis de Olho", desc: "Traço preciso e pigmentação profunda", price: "R$ 10,00", image: "https://images.unsplash.com/photo-1590392848651-11fd04c13018?q=80&w=800&auto=format&fit=crop" },
+  { name: "Máscara de Cílios", desc: "Volume extremo e definição", price: "R$ 10,00", image: "https://images.unsplash.com/photo-1591360236480-4ed861025a18?q=80&w=800&auto=format&fit=crop" },
+  { name: "Blush Compacto", desc: "Ar saudável e natural o dia todo", price: "R$ 10,00", image: "https://images.unsplash.com/photo-1596704017254-9b121068fb31?q=80&w=800&auto=format&fit=crop" },
+  { name: "Iluminador Glow", desc: "Destaque seus melhores traços", price: "R$ 10,00", image: "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?q=80&w=800&auto=format&fit=crop" },
 ];
 
 const whatsappLink = (productName: string) =>
@@ -88,7 +93,6 @@ const Index = () => {
 
       {/* Hero */}
       <section className="relative min-h-screen flex items-center pt-20">
-        {/* Glow effects */}
         <div className="absolute top-1/4 left-1/4 w-96 h-96 rounded-full bg-primary/10 blur-[120px] animate-pulse pointer-events-none" />
         <div className="absolute bottom-1/4 right-1/4 w-64 h-64 rounded-full bg-primary/5 blur-[100px] pointer-events-none" />
         <div className="shimmer absolute inset-0 pointer-events-none" />
