@@ -24,6 +24,7 @@ import baseMatte from "@/assets/base-matte.jpg";
 import poPessego from "@/assets/po-pessego.jpg";
 import lipOilMorango from "@/assets/lip-oil-morango.jpg";
 import lipTintFaby from "@/assets/lip-tint-faby.jpg";
+import lilacBlur from "@/assets/lilac-blur.webp";
 
 const categories = [
   { name: "Boca", image: catBoca },
@@ -135,6 +136,12 @@ const products = [
     price: "R$ 10,00",
     desc: "Cor natural que dura o dia todo 💋 Leve, confortável e efeito boca corada ✨",
     image: lipTintFaby
+  },
+  {
+    name: "Lilac Blur Dapop",
+    price: "R$ 10,00",
+    desc: "Finaliza, matifica e deixa a pele linda ✨ Essencial na make 💜",
+    image: lilacBlur
   },
 ];
 
