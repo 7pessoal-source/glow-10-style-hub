@@ -18,6 +18,7 @@ import hennaLabial from "@/assets/henna-labial.jpg";
 import aguaMicelar from "@/assets/agua-micelar.jpg";
 import lipMagic from "@/assets/lip-magic.jpg";
 import glossMel from "@/assets/gloss-mel.jpg";
+import ciliosMink from "@/assets/cilios-mink.jpg";
 
 const categories = [
   { name: "Boca", image: catBoca },
@@ -93,6 +94,12 @@ const products = [
     price: "R$ 10,00",
     desc: "Hidrata, dá brilho e deixa os lábios lindos 💋",
     image: glossMel
+  },
+  {
+    name: "Cílios Postiços Mink",
+    price: "R$ 10,00",
+    desc: "Olhar poderoso sem esforço 😍 2 pares na caixinha.",
+    image: ciliosMink
   },
 ];
 
