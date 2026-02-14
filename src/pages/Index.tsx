@@ -16,6 +16,7 @@ import glossChocolate from "@/assets/gloss-chocolate.webp";
 import kitSemaninha from "@/assets/kit-semaninha.webp";
 import hennaLabial from "@/assets/henna-labial.jpg";
 import aguaMicelar from "@/assets/agua-micelar.jpg";
+import lipMagic from "@/assets/lip-magic.jpg";
 
 const categories = [
   { name: "Boca", image: catBoca },
@@ -79,6 +80,12 @@ const products = [
     price: "R$ 10,00",
     desc: "Remove a maquiagem, limpa e hidrata 💕 Suave para a pele.",
     image: aguaMicelar
+  },
+  {
+    name: "Lip Magic da Vovó",
+    price: "R$ 10,00",
+    desc: "Começa verdinho e muda de cor nos lábios 😍 Longa duração.",
+    image: lipMagic
   },
 ];
 
