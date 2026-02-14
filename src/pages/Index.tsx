@@ -7,12 +7,11 @@ import catRosto from "@/assets/cat-rosto.jpg";
 import catSobrancelhas from "@/assets/cat-sobrancelhas.jpg";
 import catAcessorios from "@/assets/cat-acessorios.jpg";
 import catUnhas from "@/assets/cat-unhas.jpg";
-import prod1 from "@/assets/prod-1.jpg";
-import prod2 from "@/assets/prod-2.jpg";
-import prod3 from "@/assets/prod-3.jpg";
-import prod4 from "@/assets/prod-4.jpg";
-import prod5 from "@/assets/prod-5.jpg";
-import prod6 from "@/assets/prod-6.jpg";
+import prodNew1 from "@/assets/prod-new-1.jpg";
+import prodNew2 from "@/assets/prod-new-2.jpg";
+import prodNew3 from "@/assets/prod-new-3.jpg";
+import prodNew4 from "@/assets/prod-new-4.jpg";
+import prodNew5 from "@/assets/prod-new-5.jpg";
 
 const categories = [
   { name: "Boca", image: catBoca },
@@ -23,12 +22,11 @@ const categories = [
 ];
 
 const products = [
-  { name: "Batom Velvet Rose", desc: "Acabamento matte de longa duração", price: "R$ 49,90", image: prod1 },
-  { name: "Paleta Sunset Glow", desc: "8 tons vibrantes e pigmentados", price: "R$ 89,90", image: prod2 },
-  { name: "Base Luminous HD", desc: "Cobertura natural e luminosa", price: "R$ 69,90", image: prod3 },
-  { name: "Máscara Volume Max", desc: "Volume extremo e curvatura perfeita", price: "R$ 39,90", image: prod4 },
-  { name: "Blush Rosé Pétala", desc: "Cor natural com brilho sutil", price: "R$ 34,90", image: prod5 },
-  { name: "Gloss Crystal Shine", desc: "Brilho espelhado e hidratante", price: "R$ 29,90", image: prod6 },
+  { name: "Pó Banana", desc: "Acabamento impecável e controle de brilho", price: "R$ 10,00", image: prodNew1 },
+  { name: "Mousse Facial", desc: "Limpeza profunda e hidratação suave", price: "R$ 10,00", image: prodNew2 },
+  { name: "Pó Compacto", desc: "Cobertura uniforme e toque aveludado", price: "R$ 10,00", image: prodNew3 },
+  { name: "Base", desc: "Alta cobertura e acabamento natural", price: "R$ 10,00", image: prodNew4 },
+  { name: "Água Micelar", desc: "Remove impurezas e tonifica a pele", price: "R$ 10,00", image: prodNew5 },
 ];
 
 const whatsappLink = (productName: string) =>
